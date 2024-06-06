@@ -1,0 +1,114 @@
+/* Styling umum untuk body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling untuk header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Styling untuk navigasi di header */
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling untuk main content */
+main {
+    padding: 20px;
+}
+
+/* Styling untuk footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Styling untuk section kamar */
+.rooms .room {
+    margin: 20px 0;
+}
+
+.rooms .room img {
+    width: 100%;
+    height: auto;
+}
+
+/* Styling untuk section booking */
+.booking {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.booking form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking label {
+    margin-bottom: 5px;
+}
+
+.booking input,
+.booking select,
+.booking button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Styling untuk receipt */
+.receipt {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.receipt h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.receipt p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.receipt strong {
+    display: inline-block;
+    width: 150px;
+}
+
+/* Styling untuk chart container */
+.chart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.chart-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
